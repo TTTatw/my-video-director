@@ -1,10 +1,10 @@
 ---
 name: templates
-description: "UGC 快路径。10 种可直接套用的视频模板，每种含：适用产品、时长、视频类型(对应 voice 类型)、时间轴结构、概念种子列表、角色数建议。Use when: 用户只要快速出条 UGC / 套模板，不想要深创意。"
+description: "UGC 快路径。10 种视频模板（时间轴+概念种子+角色数），并**必须配齐短视频工艺**：3 秒钩子原型、留人结构、心理杠杆、反转结构（见 references/short-video-craft.md）。口播=人物说话或背景口播都行，**不要默认无对白氛围片**。Use when: 用户要快速出条 UGC，但**仍要钩子/留人/有戏**。"
 user-invocable: true
 metadata:
-  tags: [ugc, template, formats, concept-seed, fast-path]
-  version: 1.0.0
+  tags: [ugc, template, formats, concept-seed, hook, retention, psychology, reversal]
+  version: 1.1.0
 ---
 
 # Templates — 10 种 UGC 模板（快路径）
@@ -14,7 +14,13 @@ metadata:
 ## 使用方式
 1. 按产品/目标选一个模板。
 2. 从该模板的"概念种子"里挑一个有新意的。
-3. 按模板的时间轴结构填出脚本（角色卡 + 分镜 + 口播类型，可调各层）。
+3. **配齐短视频工艺**（必须，不是可选项）——从 `references/short-video-craft.md` 取：
+   - **3 秒钩子**：选一个钩子原型 + 一句具体开头（配 3–5 字屏幕字 + 开场快动作）。
+   - **留人结构**：钩子 → 价值 → CTA；长视频每 5–7s 补一个"再钩"；可选结尾 loop。
+   - **心理杠杆**：按产品挑 1–2 个主打（服装/美妆尤其用"自我镜像/变身/不费力/值得"）。
+   - **反转**：能加就套一个，**必须落回产品**。
+   - **口播**：人物说话 或 背景口播都行——**不要默认无对白**；只有用户明确要"静音氛围"才走无缝/ASMR。
+4. 按模板时间轴 + 工艺填出脚本（角色卡 + 分镜 + 口播类型）。
 
 ---
 

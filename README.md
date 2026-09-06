@@ -10,7 +10,8 @@ my-video-director/
 ├── README.md                ← 本文件
 ├── references/
 │   ├── routing.md           ← 路径判定 + 视频类型字典 + 角色数判定
-│   └── model-dialects.md    ← 各模型提示词方言 + 路由表 + 生成参数对照
+│   ├── model-dialects.md    ← 各模型提示词方言 + 路由表 + 生成参数对照
+│   └── short-video-craft.md ← 短视频工艺层：3秒钩子/留人/心理杠杆/反转/服装美妆心理
 ├── skills/
 │   ├── product-intake/      ← ① 产品画像（产品图片 → 卖点/人群/调性）
 │   ├── treatment/           ← ② Big Idea + 创意方向 + 视频类型选择

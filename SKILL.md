@@ -120,6 +120,7 @@ ASMR 静音 → 无声、字幕或 caption-only
 - `skills/storyboard/` — 分镜
 - `skills/acting/` — 表演层
 - `skills/voice/` — 口播类型字典
-- `skills/templates/` — 10 种 UGC 模板 + 概念种子
+- `skills/templates/` — 10 种 UGC 模板 + 概念种子（**必须配齐短视频工艺**）
 - `skills/final-prompt/` — **最终可执行提示词（Seedance 2.5 规范）〔必需终点〕**
 - `references/routing.md` — 路径判定表 + 视频类型字典 + 角色数判定
+- `references/short-video-craft.md` — **短视频工艺层**：3 秒钩子原型 / 留人结构 / 心理杠杆 / 反转结构 / 服装美妆心理
