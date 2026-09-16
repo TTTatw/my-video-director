@@ -255,7 +255,7 @@ The leaves gradually blur while the person’s face changes from soft to sharp.
 - [ ] 自动锁参对 edit / first-last / extension 已尊重
 - [ ] extension：boundary frame、motion trend、audio 连续性均查过
 - [ ] 无年龄词（引擎规则 1）
-- [ ] 用 `python3 scripts/seedance_lint.py --preflight --model seedance_2_5 "<prompt>"` 跑一遍并干净
+- [ ] 对照上文各条铁律**逐项人工核对**一遍（本 skill 为纯文本，**不含任何外部脚本**，无需也无法运行 linter）
 
 ---
 

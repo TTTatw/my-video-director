@@ -57,7 +57,7 @@
 - **4K 仅 `mode=std`**；`mode=fast` 仅 480p/720p。
 - 延伸已有片段：作为 video reference 附加 + 以 "The scene continues." 开头；**匹配源分辨率与时长**；链式上限 ~2（硬 3）；**从原始参考物重新锚定**。
 - **480p 草稿验证的是 prompt 不是成片**；无 seed 参数；用 Hero Frame + start/end frames 承载一份 look。
-- 始终先跑 `python3 scripts/seedance_lint.py --preflight --model seedance_2_0 "<prompt>"`。
+- 提交前**逐条人工核对**本节铁律（六槽齐不齐、有没有空形容词、有没有负面词、歧义动词、词数）。**本 skill 为纯文本、不含脚本，不需要运行任何 linter**；若你另装了上游 OSideMedia 的 `seedance_lint.py` 可选跑，非必需。
 
 ---
 
