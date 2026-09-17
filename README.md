@@ -15,7 +15,7 @@ my-video-director/
 ├── skills/
 │   ├── product-intake/      ← ① 产品画像（产品图片 → 卖点/人群/调性）
 │   ├── treatment/           ← ② Big Idea + 创意方向 + 视频类型选择
-│   ├── character/           ← ③ 单人/多人角色卡（长相+穿搭+人设）
+│   ├── character/           ← ③ 选角依据（买家自我镜像）+ 单人/多人角色卡（长相+穿搭+人设）
 │   ├── storyboard/          ← ④ 逐镜头分镜（镜头规格：景别/焦段/机位/景深/运镜/纵深三选一/光源动机/构图 + 电影工艺规则）
 │   ├── acting/              ← ⑤ 表演层（objective/beats/subtext/eye-life + master profile）
 │   ├── voice/               ← ⑥ 口播类型（口播/无口播+字幕/背景配音/ASMR）
