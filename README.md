@@ -22,7 +22,7 @@ my-video-director/
 │   ├── templates/           ← 10 种 UGC 模板 + 概念种子（模板路径）
 │   └── final-prompt/        ← ⑦ **最终可执行提示词〔必需终点〕· 按模型自动切方言（Seedance 2.5 / 2.0 / Veo 3.1）**
 └── examples/
-    ├── portable-coffee-tumbler.md   ← 完整示例(①~⑥ + ⑦)
+    ├── portable-coffee-tumbler.md   ← 早期完整示例(①~⑥；⑦ 见下一条)
     └── black-dress-final-prompt.md  ← 完整示例(①~⑥ + ⑦·Seedance 2.5)
 ```
 

@@ -4,8 +4,8 @@ description: "把前序分析(产品画像/角色/分镜/表演/口播)合成**�
 user-invocable: true
 metadata:
   tags: [final-prompt, generation, prompt, seedance-2.5, seedance-2.0, veo, model-router]
-  version: 1.1.0
-  updated: 2026-08-28
+  version: 1.2.0
+  updated: 2026-09-17
   parent: my-video-director
 ---
 
@@ -134,11 +134,12 @@ Do not use the people in the image.
 | 对白 | `{}` | `{Hello, welcome back.}` |
 | 字幕 | `《》` | `《Chapter One: Departure》` |
 
-**非中文对白——先给语言行，再给台词**：
+**对白语言跟目标市场走，并且无论中英文都先给一行语言声明**：
 ```text
-Dialogue language: authentic Los Angeles English.
-The young man says in natural Los Angeles vernacular: {No way, you actually made it.}
+Dialogue language: authentic American English, casual creator register.
+She says in natural American vernacular: {This is a cardigan my mom would absolutely buy.}
 ```
+> **中文台词不是默认值。** 用户讲中文、但片子投美国，台词就必须是英文；只有明确投中文市场时才写中文对白。市场没给就先问，要默认就在交付开头声明。
 
 **两条老规矩：**
 - **对白只活在音频从句里**，别塞进动作描述（否则模型把它当行为念出来）。要写就写可见行为（"jaw sets, eyes hold"），并注意"no dialogue"不撤销它——可读文本仍会被要求。
@@ -255,6 +256,8 @@ The leaves gradually blur while the person’s face changes from soft to sharp.
 - [ ] 自动锁参对 edit / first-last / extension 已尊重
 - [ ] extension：boundary frame、motion trend、audio 连续性均查过
 - [ ] 无年龄词（引擎规则 1）
+- [ ] 台词 / 字幕 / caption 的语言 = **目标市场语言**（不是你和用户对话时用的语言）
+- [ ] 本条场景与光源锚点是重新选的，且与同批次其他片子不同；全片镜头没有共用同一个锚点
 - [ ] 对照上文各条铁律**逐项人工核对**一遍
 
 ---

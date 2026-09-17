@@ -4,7 +4,8 @@ description: "口播/音频层。按视频类型(A 有声口播/B 无口播+字�
 user-invocable: true
 metadata:
   tags: [voice, audio, voiceover, subtitle, narration, talking-head, asmr]
-  version: 1.0.0
+  version: 1.1.0
+  updated: 2026-09-17
 ---
 
 # Voice — 口播/音频层
@@ -15,6 +16,8 @@ metadata:
 - **画外有没有人声（VO/旁白）？**
 
 组合出来就是 routing 里的类型字典。**先选定类型，再写这一层。**
+
+> **先定语言，再写台词。** 台词、屏幕字、字幕、caption 的语言 = **目标市场的语言**，跟用户在用什么语言跟你说话无关。投美国就是自然美式英语，投日本就是日语；市场没给就先问一句，要默认就在交付开头声明。判断口径只有一句：**这句话最终是谁在念、谁在听？** 中文只该出现在分析层和给用户的说明里。
 
 ## 类型 → 各自要写什么
 
